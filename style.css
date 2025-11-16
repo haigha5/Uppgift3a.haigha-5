@@ -6,3 +6,12 @@ h1, h2, h3, h4, h5, h6 {
     /* 3. sans-serif (en generisk reserv om varken Arial eller Helvetica finns) */
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Denna regel sätter typsnittet för all övrig text på webbsidan. */
+/* Genom att applicera det på 'body'-elementet ärver de flesta andra element stilen. */
+body {
+    /* Prioriterad ordning av typsnitt: */
+    /* 1. Candara (om tillgängligt) */
+    /* 2. Verdana (om Candara inte finns) */
+    /* 3. sans-serif (en generisk reserv om varken Candara eller Verdana finns) */
+    font-family: Candara, Verdana, sans-serif;
+}
